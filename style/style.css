@@ -1,26 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  color: black;
-}
-
-body {
-  margin: 0;
-}
-
-ul {
-  margin: 0;
-  list-style: none;
-  padding: 0;
-}
-
-button {
-  background: none;
-  padding: 0;
-  border: none;
-}
-
-a {
-  color: black;
-  text-decoration: none;
-}
+@import "_base.css";
+@import "_navigation.css";
+@import "_promo.css";
+@import "_clients.css";
