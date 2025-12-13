@@ -14,6 +14,26 @@ body {
   color: #717171;
 }
 
+h2 {
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 600;
+  color: #4D4D4D;
+  margin-bottom: 8px;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 76px;
+  font-weight: 600;
+  color: #4D4D4D;
+  margin-bottom: 16px;
+
+  span {
+    color: #4CAF4F;
+  }
+}
+
 .container {
   width: 1152px;
   margin: 0 auto;
@@ -57,7 +77,6 @@ a {
   line-height: 20px;
   font-weight: 400;
   color: #FFFFFF;
-  
 }
 
 .button_primary-big {
