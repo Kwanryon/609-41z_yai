@@ -18,3 +18,9 @@
   display: flex;
   gap: 14px;
 }
+
+.achievements__item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
