@@ -1,0 +1,27 @@
+.achievements {
+  padding: 60px 0;
+  margin: 50px 0;
+  background-color: #F5F7FA;
+}
+
+.achievements__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.achievements__header {
+  color: #18191F;
+
+}
+
+.achievements__content-list {
+  display: grid;
+  grid-template-columns: 270px 270px;
+  column-gap: 24px;
+  row-gap: 40px;
+  
+  h3 {
+    color: #4D4D4D;
+  }
+}
