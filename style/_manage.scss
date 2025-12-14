@@ -20,7 +20,7 @@
 
 .manage__card {
   border-radius: 8px;
-  box-shadow: 0 0 35px rgba(171, 190, 209, 0.2);
+  box-shadow:$box-shadow;
   padding: 28px;
   display: flex;
   flex-direction: column;
@@ -32,7 +32,7 @@
     font-size: 20px;
     line-height: 28px;
     font-weight: 600;
-    color: #4D4D4D;
+    color: $gray;
   }
 
   p {

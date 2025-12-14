@@ -24,7 +24,7 @@ h2 {
   font-size: 36px;
   line-height: 44px;
   font-weight: 600;
-  color: #4D4D4D;
+  color: $gray;
   margin-bottom: 8px;
   letter-spacing: 1px;
 
@@ -37,7 +37,7 @@ h1 {
   font-size: 64px;
   line-height: 76px;
   font-weight: 600;
-  color: #4D4D4D;
+  color: $gray;
   margin-bottom: 16px;
   letter-spacing: 2px;
 
@@ -47,8 +47,24 @@ h1 {
 }
 
 .container {
-  width: 1152px;
+  width: $container-xl;
   margin: 0 auto;
+
+  @media (max-width: $breakpoint-xl) {
+    max-width: $container-lg;
+  }
+
+  @media (max-width: $breakpoint-lg) {
+    max-width: $container-md;
+  }
+
+  @media (max-width: $breakpoint-md) {
+    max-width: $container-sm;
+  }
+
+  @media (max-width: $breakpoint-sm) {
+    max-width: 100%;
+  }
 }
 
 ul {
@@ -69,13 +85,13 @@ button {
 }
 
 a {
-  color: black;
+  color: $black;
   text-decoration: none;
 }
 
 .button_light-sm {
   font-family: "Inter", sans-serif;
-  background: #F5F7FA;
+  background: $light-secondary;
   padding: 10px 20px;
   border-radius: 6px;
   font-size: 14px;
@@ -93,7 +109,7 @@ a {
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
-  color: #FFFFFF;
+  color: $white;
 }
 
 .button_primary-big {
@@ -104,12 +120,13 @@ a {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  color: #FFFFFF;
+  color: $white;
 }
 
 .button_icon {
   padding: 12px;
-  img{
+
+  img {
     vertical-align: middle;
   }
 }
